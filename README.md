@@ -1,5 +1,13 @@
 # European Parliament Vote Classifier
 
+## Governance Relevance
+This project demonstrates applied data analytics for legislative accountability – a core strand of Governance GP's work on transparent and accountable institutions. By predicting political group membership from voting records, it shows how data can be used to measure institutional cohesion, party discipline, and legislative behavior – methods transferable to governance diagnostics, parliamentary strengthening, and public sector accountability work.
+
+## Responsible AI & Limitations
+- High feature-to-sample ratio in EU version (2,072 features, 728 MEPs after cleaning) causes mild overfitting despite dropout – noted as future PCA work
+- 1984 US data and 2014-2019 EP data are historical – not current governance indicators
+- No government stakeholder, research prototype only
+
 A multi-class neural network classifier that predicts which **European Parliament political group** an MEP belongs to based on their voting record across 2,072 key legislative votes during the 8th parliamentary term (2014–2019).
 
 ## Dataset
